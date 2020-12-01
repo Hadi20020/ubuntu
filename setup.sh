@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "-----------Updating------------"
- #sudo apt update && sudo apt upgrade  
- #sudo apt-get install dialog
+ sudo apt update && sudo apt upgrade  
+ sudo apt-get install dialog
 cmd=(dialog --separate-output --checklist "Select options:" 22 76 16)
 # any option can be set to default to "on"
 options=( 
