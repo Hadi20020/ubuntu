@@ -1,9 +1,10 @@
 # ubuntu Post install software installation
 Clone it then
---sh
+```sh
 sudo su
---
---sh
+```
+then
+```sh
 ./setup.sh
---
+```
 Done
